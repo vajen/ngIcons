@@ -1,0 +1,15 @@
+.buttons {
+  display: flex;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+}
+
+.default { background-color: darkgrey; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+.red { background-color: red; }
+.orange { background-color: orange; }

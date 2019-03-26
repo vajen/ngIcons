@@ -1,5 +1,5 @@
 {
-  "name": "intermedia",
+  "name": "icons",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -29,10 +29,11 @@
     "@angular/cli": "~7.3.1",
     "@angular/compiler-cli": "~7.2.0",
     "@angular/language-service": "~7.2.0",
-    "@types/node": "~8.9.4",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
     "codelyzer": "~4.5.0",
+    "html-webpack-plugin": "^3.2.0",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~3.1.1",
@@ -43,6 +44,21 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.2.2"
-  }
+    "typescript": "~3.2.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1. 1.       Создать приложение на angular 6+ 2.       Импортировать приложенный файл с со списком и html содержимым иконок 3.       Реализовать список иконок, который должен быть a.       Сгруппирован по размеру на основании атрибута width b.       В группе иконки должны быть отсортированы по названию c.       Иконки располагаются в столбцах, по порядку слева-направо, сверху-вниз. d.       При изменении размеров экрана, количество столбцов должно быть адаптивно. Рекомендуется реализовывать на flex или grid. e.       Пример: 4.       Реализовать поиск по названию иконки (Фильтровать элементы списка при вводе в строку поиска) 5.       Реализовать раскрашивание иконок в списке: a.       Изображение",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vajen/icons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vajen/icons/issues"
+  },
+  "homepage": "https://github.com/vajen/icons#readme"
 }

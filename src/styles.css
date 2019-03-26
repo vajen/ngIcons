@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+svg {
+  max-width: 32px;
+  vertical-align: middle;
+}
+
+.icon_wrap span {
+  padding: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
